@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/PedidoFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.PedidoFragment">
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:id="@+id/listPedido"
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="1dp"
+        tools:listitem="@layout/item_pedido" />
+
+    <Button
+        android:id="@+id/btnFinPedido"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edtMin"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="193dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="48dp"
+        android:background="@drawable/btn_fin"
+        android:text="@string/finalizar_peido"/>
+
+    <EditText
+        android:id="@+id/edtMin"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listPedido"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/txtTiempo"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/listPedido"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="55dp"
+        android:layout_toStartOf="@+id/edtMin"
+        android:text="@string/minutos" />
+
+</RelativeLayout>

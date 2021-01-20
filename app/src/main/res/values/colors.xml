@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3A6C6A</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Blanco">#FFFFFF</color>
+    <color name="BlancoTransparente">#80FFFFFF</color>
+    <color name="Negro">#000000</color>
+    <color name="Rosa">#E4027A</color>
+    <color name="Morado">#594580</color>
+    <color name="Verde">#377249</color>
+    <color name="VerdeBajo">#5FAD66</color>
+    <color name="Azul">#367D8A</color>
+    <color name="AzulClaro">#87BAC7</color>
+    <color name="MoradoBajo">#C696D6</color>
+    <color name="MoradoClaro">#CAA1DB</color>
+
+
+</resources>

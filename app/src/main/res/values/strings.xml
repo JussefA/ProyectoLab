@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AppLab</string>
+    <string name="nav_material">Material</string>
+    <string name="nav_pedido">Pedido</string>
+    <string name="nav_estudiante">Estudiante</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="Numero">Numero de Control</string>
+    <string name="entrar">Entrar</string>
+    <string name="m1">M1</string>
+    <string name="disponible">Disponible</string>
+    <string name="pedido">Pedido</string>
+    <string name="finalizar_peido">Finalizar Pedido</string>
+    <string name="carrera">Carrera</string>
+    <string name="nombre">Nombre</string>
+    <string name="minutos">¿En cuantos minutos recogera su pedido?</string>
+    <string name="fecha_y_hora">Fecha y Hora</string>
+    <string name="tiempo">Tiempo</string>
+
+</resources>
